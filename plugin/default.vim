@@ -131,6 +131,7 @@ if !exists('g:vim_better_default_persistent_undo') ||
 endif
 
 if has('gui_running')
+  set background=light     " Assume dark background
   set guioptions-=r        " Hide the right scrollbar
   set guioptions-=L        " Hide the left scrollbar
   set guioptions-=T
